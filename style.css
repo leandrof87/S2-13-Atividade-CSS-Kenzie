@@ -21,7 +21,11 @@ h1{
     font-size: 14px;
 }
 
+
 .input{
+    display: inline-block;
+    margin-top: 5px;
+    transition: 0.3s ease;
     border: rgba(238, 0, 0, 0.116);
     border-radius: 5px;
     background-color: rgba(83, 78, 78, 0.116);
@@ -34,6 +38,9 @@ h1{
 }
 
 button{
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s ease;
     background-color: #1971C2;
     border: blue;
     border-radius: 5px;
@@ -46,5 +53,4 @@ button{
     background-color: #1864AB;
 }
 
-/*sobre transição de cor suave */
 /*sobre mover objetos individualmente */
